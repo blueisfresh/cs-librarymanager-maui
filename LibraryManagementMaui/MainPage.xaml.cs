@@ -4,14 +4,18 @@ namespace LibraryManagementMaui
 {
     public partial class MainPage : ContentPage
     {
-        public BurgerHeaderViewModel BurgerHeaderVM { get; set; }
+        public MainPageViewModel MainPageVM { get; set; }
 
         public MainPage()
         {
             InitializeComponent();
-            BurgerHeaderVM = new BurgerHeaderViewModel();
-            // Optionally, assign the BindingContext for the entire page if needed:
-            BindingContext = this;
+            MainPageVM = new MainPageViewModel();
+            BindingContext = MainPageVM;
+        }
+
+        private async void navigateBtn_Clicked(object sender, EventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(NestedPage1));
         }
 
     }

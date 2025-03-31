@@ -4,13 +4,40 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:LibraryManagementMaui"
+    xmlns:views="clr-namespace:LibraryManagementMaui.View"
+    xmlns:components="clr-namespace:LibraryManagementMaui.Components"
     Shell.FlyoutBehavior="Disabled"
-    Shell.NavBarIsVisible="False"
     Title="LibraryManagementMaui">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar>
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" 
+            Icon="home.png"/>
 
+        <ShellContent
+            Title="Students"
+            ContentTemplate="{DataTemplate views:StudentsPage}"
+            Route="StudentsPage" 
+            Icon="students.png"/>
+
+        <ShellContent
+            Title="Books"
+            ContentTemplate="{DataTemplate views:BooksPage}"
+            Route="BooksPage" 
+            Icon="book.png"/>
+
+        <ShellContent
+            Title="Statistics"
+            ContentTemplate="{DataTemplate views:StatisticsPage}"
+            Route="StatisticsPage" 
+            Icon="statistics.png"/>
+
+        <ShellContent
+            Title="ImportExport"
+            ContentTemplate="{DataTemplate views:ImportExportPage}"
+            Route="ImportExportPage" 
+            Icon="import_export.png"/>
+    </TabBar>
 </Shell>

@@ -29,7 +29,7 @@ C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\o
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\mauifont.stamp
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Regular.ttf
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\f\OpenSans-Semibold.ttf
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\r\drawable\books.png
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\r\drawable\book.png
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\r\drawable\borrowed_books.png
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\r\drawable\borrow_return.png
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
@@ -141,6 +141,8 @@ C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\o
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resolvedassemblies.hash
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\cs\Microsoft.Maui.Controls.resources.dll
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\da\Microsoft.Maui.Controls.resources.dll
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\de\Microsoft.Maui.Controls.resources.dll
@@ -1052,6 +1054,3 @@ C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\o
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.pdb
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-android\resizetizer\r\drawable\menu.png

@@ -1,9 +1,8 @@
-﻿obj\Debug\net8.0-android\resizetizer\r\drawable\books.png
+﻿obj\Debug\net8.0-android\resizetizer\r\drawable\book.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\borrowed_books.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\borrow_return.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\home.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\import_export.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\menu.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\statistics.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\students.png
 obj\Debug\net8.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml

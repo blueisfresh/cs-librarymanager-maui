@@ -1,8 +1,8 @@
 namespace LibraryManagementMaui.View;
 
-public partial class StudentPage : ContentPage
+public partial class StudentsPage : ContentPage
 {
-	public StudentPage()
+	public StudentsPage()
 	{
 		InitializeComponent();
 	}

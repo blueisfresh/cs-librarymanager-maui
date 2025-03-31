@@ -4,6 +4,22 @@
         <name>LibraryManagementMaui</name>
     </assembly>
     <members>
+        <member name="T:LibraryManagementMaui.ViewModels.BooksViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.Books">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BooksViewModel.books"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.Search">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BooksViewModel.search"/>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.addCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.AddCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.Add"/>.</summary>
+        </member>
         <member name="T:LibraryManagementMaui.ViewModels.BurgerHeaderViewModel">
             <inheritdoc/>
         </member>
@@ -16,6 +32,12 @@
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Books">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Books" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Search">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Search" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsMenuVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsMenuVisible" generated properties.</summary>
         </member>
@@ -24,6 +46,12 @@
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
             for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
             </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Books">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Books" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Search">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Search" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsMenuVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsMenuVisible" generated properties.</summary>

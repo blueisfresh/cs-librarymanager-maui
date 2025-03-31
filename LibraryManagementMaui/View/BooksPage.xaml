@@ -1,0 +1,47 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LibraryManagementMaui.View.BooksPage"
+             Title="BooksPage">
+    <Grid RowDefinitions="Auto, *"
+      ColumnDefinitions=".75*, .25*"
+      Padding="10"
+      RowSpacing="10"
+      ColumnSpacing="10">
+        <!-- Entry and Button on the top row -->
+        <Entry Placeholder="Search for Books"
+               Text="{Binding Text}"
+               Grid.Row="0"
+               Grid.Column="0" />
+        <Button Text="Add" 
+                Command="{Binding AddCommand}" 
+                Grid.Row="0" 
+                Grid.Column="1"/>
+
+        <!-- ScrollView taking up the rest of the space -->
+        <ScrollView Grid.Row="1" Grid.ColumnSpan="2">
+            <CollectionView ItemsSource="{Binding Books}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Type x:String}">
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Delete" BackgroundColor="Red"/>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <SwipeView.LeftItems>
+                                <SwipeItems>
+                                    <SwipeItem Text="Edit" BackgroundColor="Blue"/>
+                                </SwipeItems>
+                            </SwipeView.LeftItems>
+                            <Grid Padding="0,5">
+                                <Frame>
+                                    <Label Text="{Binding .}" FontSize="24"/>
+                                </Frame>
+                            </Grid>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </Grid>
+</ContentPage>

@@ -7,9 +7,7 @@ namespace LibraryManagementMaui
         public AppShell()
         {
             InitializeComponent();
-
-            // Register a route that points to StudentPage
-            Routing.RegisterRoute("StudentPage", typeof(StudentPage));
+            Routing.RegisterRoute(nameof(NestedPage1), typeof(NestedPage1));
         }
     }
 }
