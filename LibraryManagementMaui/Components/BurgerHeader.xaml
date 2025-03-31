@@ -1,0 +1,59 @@
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:LibraryManagementMaui.ViewModels"
+             x:Class="LibraryManagementMaui.Components.BurgerHeader">
+    <StackLayout Spacing="0">
+        <!-- Header Bar -->
+        <Grid BackgroundColor="DarkSlateBlue" HeightRequest="50" Padding="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!-- Burger Icon -->
+            <Image Source="menu.png"
+             WidthRequest="30"
+             HeightRequest="30"
+             VerticalOptions="Center"
+             Grid.Column="0">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding ToggleMenuCommand}" />
+                </Image.GestureRecognizers>
+            </Image>
+            <!-- Header Title -->
+            <Label Grid.Column="1"
+             Text="Library Management"
+             VerticalOptions="Center"
+             TextColor="White"
+             FontSize="20"
+             Margin="10,0,0,0" />
+        </Grid>
+
+        <!-- Drop Down Menu -->
+        <StackLayout IsVisible="{Binding IsMenuVisible}"
+                 BackgroundColor="LightGray"
+                 Padding="10"
+                 Spacing="10">
+            <Button Text="Books" 
+              Command="{Binding NavigateCommand}" 
+              CommandParameter="BooksPage"
+                    ImageSource="book.png"/>
+            <Button Text="Students" 
+              Command="{Binding NavigateCommand}" 
+              CommandParameter="StudentsPage" 
+                    ImageSource="students.png"/>
+            <Button Text="Borrow/Return" 
+              Command="{Binding NavigateCommand}" 
+              CommandParameter="BorrowReturnPage" ImageSource="borrow_return.png" />
+            <Button Text="Statistics" 
+              Command="{Binding NavigateCommand}" 
+              CommandParameter="StatisticsPage" 
+                    ImageSource="statistics.png" />
+            <Button Text="Import/Export"
+        Command="{Binding NavigateCommand}"
+        CommandParameter="ImportExportPage"
+        ImageSource="import_export.png" />
+
+
+        </StackLayout>
+    </StackLayout>
+</ContentView>

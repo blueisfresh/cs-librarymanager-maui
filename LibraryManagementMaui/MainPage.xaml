@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:components="clr-namespace:LibraryManagementMaui.Components"
+             x:Class="LibraryManagementMaui.MainPage">
+    <StackLayout Spacing="0">
+        <!-- Include the reusable header -->
+        <components:BurgerHeader BindingContext="{Binding BurgerHeaderVM}" />
+
+        <!-- Main content for the page -->
+        <ContentView>
+            <!-- Your page content goes here -->
+        </ContentView>
+    </StackLayout>
+
+</ContentPage>
