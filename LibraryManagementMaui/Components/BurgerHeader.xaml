@@ -36,7 +36,7 @@
             <Button Text="Books" 
               Command="{Binding NavigateCommand}" 
               CommandParameter="BooksPage"
-                    ImageSource="book.png"/>
+                    ImageSource="books.png"/>
             <Button Text="Students" 
               Command="{Binding NavigateCommand}" 
               CommandParameter="StudentsPage" 

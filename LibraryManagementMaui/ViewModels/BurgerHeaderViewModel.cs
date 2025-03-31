@@ -25,11 +25,26 @@ namespace LibraryManagementMaui.ViewModels
             ToggleMenuCommand = new RelayCommand(() => IsMenuVisible = !IsMenuVisible);
 
             // Implement your navigation command here.
-            NavigateCommand = new RelayCommand<string>((page) =>
+            NavigateCommand = new RelayCommand<string>(async (page) =>
             {
-                // Example navigation logic:
-                // Shell.Current.GoToAsync(page);
-                // Or use your custom navigation service.
+                switch (page)
+                {
+                    case "StudentsPage":
+                        await Shell.Current.GoToAsync("StudentPage");
+                        break;
+                    case "BooksPage":
+                        await Shell.Current.GoToAsync("/Views/BooksPage.xaml");
+                        break;
+                    case "BorrowReturnPage":
+                        await Shell.Current.GoToAsync("/Views/BorrowReturnPage.xaml");
+                        break;
+                    case "StatisticsPage":
+                        await Shell.Current.GoToAsync("/Views/StatisticsPage.xaml");
+                        break;
+                    case "ImportExportPage":
+                        await Shell.Current.GoToAsync("/Views/ImportExportPage.xaml");
+                        break;
+                }
             });
         }
     }

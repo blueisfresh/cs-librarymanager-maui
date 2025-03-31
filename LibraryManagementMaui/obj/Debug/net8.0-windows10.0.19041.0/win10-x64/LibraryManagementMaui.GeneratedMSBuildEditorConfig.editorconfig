@@ -62,3 +62,21 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/ImportExportPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.ImportExportPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ImportExportPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ImportExportPage.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/StatisticsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.StatisticsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StatisticsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StatisticsPage.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/StudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.StudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StudentPage.xaml
