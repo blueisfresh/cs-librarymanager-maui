@@ -264,15 +264,11 @@ C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\b
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\bin\Debug\net8.0-ios\iossimulator-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\mauifont.inputs
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.inputs
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiInfo.plist
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\MauiSplash.storyboard
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449.png
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@2x.png
-C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\splash_58C11A0A2CDF3C43117FC29EECA319E6FBFEFE150B9123BB20E86A467F499449@3x.png
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\mauisplash.stamp
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
@@ -322,3 +318,7 @@ C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\o
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\LibraryManagementMaui.pdb
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\LibraryManagementMaui.genruntimeconfig.cache
 C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\ref\LibraryManagementMaui.dll
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\appicon_CEBCC8AF64339A846B8150F77E3102B8BC8DD4B947D619C9DEAAC717FDA44094.png
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\appicon_CEBCC8AF64339A846B8150F77E3102B8BC8DD4B947D619C9DEAAC717FDA44094@2x.png
+C:\Users\elias\Desktop\fifth block\LibraryManagementMaui\LibraryManagementMaui\obj\Debug\net8.0-ios\iossimulator-x64\resizetizer\sp\appicon_CEBCC8AF64339A846B8150F77E3102B8BC8DD4B947D619C9DEAAC717FDA44094@3x.png
