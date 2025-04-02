@@ -21,6 +21,7 @@ public partial class BooksViewModel : ObservableObject
     public BooksViewModel()
     {
         Books = new ObservableCollection<Book>(booksDictionary.Values);
+        IsPopupVisible = false;
     }
 
     [ObservableProperty]
@@ -29,10 +30,25 @@ public partial class BooksViewModel : ObservableObject
     [ObservableProperty]
     string search;
 
+    [ObservableProperty]
+    private bool isPopupVisible;
+
     [RelayCommand]
     void Add()
     {
         // Open the add books window
+    }
+
+    [RelayCommand]
+    async Task DeleteBook()
+    {
+        ShowPopup();
+    }
+
+    [RelayCommand]
+    void EditBook()
+    {
+
     }
 
     [RelayCommand]
@@ -43,6 +59,20 @@ public partial class BooksViewModel : ObservableObject
         // Escape the JSON string.
         var encodedBookJson = WebUtility.UrlEncode(bookJson);
         await Shell.Current.GoToAsync($"{nameof(DetailsWindow)}?book={encodedBookJson}");
+    }
+
+    // Command to show the popup overlay
+    [RelayCommand]
+    void ShowPopup()
+    {
+        IsPopupVisible = true;
+    }
+
+    // Command to close the popup overlay
+    [RelayCommand]
+    void ClosePopup()
+    {
+        IsPopupVisible = false;
     }
 
     Dictionary<string, Book> booksDictionary = new Dictionary<string, Book>

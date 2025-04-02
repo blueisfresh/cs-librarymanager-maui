@@ -4,6 +4,8 @@
              xmlns:vm="clr-namespace:LibraryManagementMaui.ViewModels"
              xmlns:models="clr-namespace:LibraryManagementMaui.Models"
              Title="BooksPage">
+    <Grid>
+        
     <Grid RowDefinitions="Auto, *"
       ColumnDefinitions=".75*, .25*"
       Padding="10"
@@ -27,12 +29,18 @@
                         <SwipeView>
                             <SwipeView.RightItems>
                                 <SwipeItems>
-                                    <SwipeItem Text="Delete" BackgroundColor="Red"/>
+                                    <SwipeItem 
+                                        Text="Delete" BackgroundColor="Red" 
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type vm:BooksViewModel}}, Path=DeleteBookCommand}"
+                                        CommandParameter="{Binding .}"/>
                                 </SwipeItems>
                             </SwipeView.RightItems>
                             <SwipeView.LeftItems>
                                 <SwipeItems>
-                                    <SwipeItem Text="Edit" BackgroundColor="Blue"/>
+                                    <SwipeItem 
+                                        Text="Edit" BackgroundColor="Blue"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type vm:BooksViewModel}}, Path=EditBookCommand}"
+                                        CommandParameter="{Binding .}"/>
                                 </SwipeItems>
                             </SwipeView.LeftItems>
                             <Grid Padding="0,5">
@@ -41,7 +49,8 @@
                                         <Label.GestureRecognizers>
                                             <TapGestureRecognizer 
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type vm:BooksViewModel}}, Path=ShowDetailCommand}"
-                                                CommandParameter="{Binding .}" />
+                                                CommandParameter="{Binding .}" 
+                                                />
                                         </Label.GestureRecognizers>
                                     </Label>
                                 </Frame>
@@ -51,5 +60,46 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </ScrollView>
+
+        
     </Grid>
+
+    <!-- Popup Overlay -->
+    <Grid x:Name="PopupOverlay"
+      IsVisible="{Binding IsPopupVisible}"
+      BackgroundColor="#80000000"
+      VerticalOptions="FillAndExpand"
+      HorizontalOptions="FillAndExpand">
+
+        <!-- Tapping the dimmed background can close the popup -->
+        <Grid.GestureRecognizers>
+            <TapGestureRecognizer Command="{Binding ClosePopupCommand}" />
+        </Grid.GestureRecognizers>
+
+        <!-- The popup card -->
+        <Frame VerticalOptions="Center"
+           HorizontalOptions="Center"
+           Padding="20"
+           Margin="40"
+           BackgroundColor="White"
+           CornerRadius="20"
+           HasShadow="True"
+           TranslationY="0">
+            <!-- If you want a fade/scale animation, 
+             you can set Scale="0" and animate it in code-behind or via your ViewModel. -->
+
+            <StackLayout Spacing="20">
+                <Label Text="This is the popup content!" 
+                   FontSize="20" 
+                   HorizontalOptions="Center"/>
+
+                <Button Text="Close"
+                    Command="{Binding ClosePopupCommand}"
+                    HorizontalOptions="Center"/>
+            </StackLayout>
+        </Frame>
+    </Grid>
+    </Grid>
+
+
 </ContentPage>

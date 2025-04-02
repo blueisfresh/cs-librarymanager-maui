@@ -8,6 +8,10 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.Books">
             <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BooksViewModel.books"/>
@@ -15,17 +19,44 @@
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.Search">
             <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BooksViewModel.search"/>
         </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.IsPopupVisible">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BooksViewModel.isPopupVisible"/>
+        </member>
         <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.addCommand">
             <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.AddCommand"/>.</summary>
         </member>
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.AddCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.Add"/>.</summary>
         </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.deleteBookCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBookCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBook"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.editBookCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.EditBookCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.EditBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.EditBook"/>.</summary>
+        </member>
         <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.showDetailCommand">
             <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.ShowDetailCommand"/>.</summary>
         </member>
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.ShowDetailCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.ShowDetail(LibraryManagementMaui.Models.Book)"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.showPopupCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.ShowPopupCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.ShowPopupCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.ShowPopup"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.closePopupCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopupCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopupCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopup"/>.</summary>
         </member>
         <member name="T:LibraryManagementMaui.ViewModels.BurgerHeaderViewModel">
             <inheritdoc/>
@@ -51,6 +82,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Search">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Search" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPopupVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPopupVisible" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsMenuVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsMenuVisible" generated properties.</summary>
         </member>
@@ -68,6 +102,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Search">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Search" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPopupVisible">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPopupVisible" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsMenuVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsMenuVisible" generated properties.</summary>
