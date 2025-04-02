@@ -6,16 +6,25 @@
 
     <!-- Note: For Android please see also Platforms\Android\Resources\values\colors.xml -->
 
-    <Color x:Key="Primary">#512BD4</Color>
-    <Color x:Key="PrimaryDark">#ac99ea</Color>
-    <Color x:Key="PrimaryDarkText">#242424</Color>
-    <Color x:Key="Secondary">#DFD8F7</Color>
-    <Color x:Key="SecondaryDarkText">#9880e5</Color>
-    <Color x:Key="Tertiary">#2B0B98</Color>
+    <!-- Replacing purple and pink with grey shades -->
+    <Color x:Key="Primary">#6E6E6E</Color>
+    <!-- Replaces #512BD4 with Gray500 -->
+    <Color x:Key="PrimaryDark">#404040</Color>
+    <!-- Replaces #ac99ea with Gray600 -->
+    <Color x:Key="PrimaryDarkText">#212121</Color>
+    <!-- Replaces #242424 with Gray900 -->
+    <Color x:Key="Secondary">#C8C8C8</Color>
+    <!-- Replaces #DFD8F7 with Gray200 -->
+    <Color x:Key="SecondaryDarkText">#ACACAC</Color>
+    <!-- Replaces #9880e5 with Gray300 -->
+    <Color x:Key="Tertiary">#919191</Color>
+    <!-- Replaces #2B0B98 with Gray400 -->
 
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
-    <Color x:Key="Magenta">#D600AA</Color>
+    <!-- Replace Magenta (pink) with a grey tone -->
+    <Color x:Key="Magenta">#141414</Color>
+    <!-- Replaces #D600AA with Gray950 -->
     <Color x:Key="MidnightBlue">#190649</Color>
     <Color x:Key="OffBlack">#1f1f1f</Color>
 
