@@ -7,6 +7,6 @@ public partial class AddingBooksPage : ContentPage
 	public AddingBooksPage()
 	{
 		InitializeComponent();
-        BindingContext = new AddingBooksPageViewModel();
+        BindingContext = new AddingBooksViewModel();
 	}
 }

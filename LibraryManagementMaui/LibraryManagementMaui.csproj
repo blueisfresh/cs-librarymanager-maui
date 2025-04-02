@@ -67,7 +67,7 @@
 	  <MauiXaml Update="View\AddingBooksPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\BorrowPage.xaml">
+	  <MauiXaml Update="View\AddingStudentsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\BorrowReturnPage.xaml">

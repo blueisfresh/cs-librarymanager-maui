@@ -57,17 +57,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View
 build_metadata.AdditionalFiles.TargetPath = View\AddingBooksPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AddingBooksPage.xaml
 
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/AddingStudentsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.AddingStudentsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddingStudentsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddingStudentsPage.xaml
+
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/BooksPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.BooksPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\BooksPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\BooksPage.xaml
-
-[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/BorrowPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.BorrowPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\BorrowPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\BorrowPage.xaml
 
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/BorrowReturnPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

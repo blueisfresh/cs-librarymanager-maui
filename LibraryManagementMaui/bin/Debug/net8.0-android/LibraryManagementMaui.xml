@@ -4,11 +4,11 @@
         <name>LibraryManagementMaui</name>
     </assembly>
     <members>
-        <member name="T:LibraryManagementMaui.ViewModels.AddingBooksPageViewModel">
+        <member name="T:LibraryManagementMaui.ViewModels.AddingBooksViewModel">
             <inheritdoc/>
         </member>
-        <member name="P:LibraryManagementMaui.ViewModels.AddingBooksPageViewModel.SelectedBook">
-            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.AddingBooksPageViewModel.selectedBook"/>
+        <member name="P:LibraryManagementMaui.ViewModels.AddingBooksViewModel.SelectedBook">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.AddingBooksViewModel.selectedBook"/>
         </member>
         <member name="T:LibraryManagementMaui.ViewModels.BooksViewModel">
             <inheritdoc/>
@@ -64,12 +64,6 @@
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopupCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopup"/>.</summary>
         </member>
-        <member name="T:LibraryManagementMaui.ViewModels.BurgerHeaderViewModel">
-            <inheritdoc/>
-        </member>
-        <member name="P:LibraryManagementMaui.ViewModels.BurgerHeaderViewModel.IsMenuVisible">
-            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BurgerHeaderViewModel.isMenuVisible"/>
-        </member>
         <member name="T:LibraryManagementMaui.ViewModels.DetailsWindowViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -101,9 +95,6 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPopupVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPopupVisible" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsMenuVisible">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsMenuVisible" generated properties.</summary>
-        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -121,9 +112,6 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPopupVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPopupVisible" generated properties.</summary>
-        </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsMenuVisible">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsMenuVisible" generated properties.</summary>
         </member>
     </members>
 </doc>
