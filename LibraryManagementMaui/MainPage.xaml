@@ -2,13 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LibraryManagementMaui.MainPage">
-    
-    
-
-        <Button
-            x:Name="navigateBtn"
-            Clicked="navigateBtn_Clicked"
-            HorizontalOptions="Center"
-            Text="Go to NestedPage1"/>
+    <VerticalStackLayout>
+        <Label Text="This is the main page"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </VerticalStackLayout>
 
 </ContentPage>

@@ -11,10 +11,10 @@
 
     <TabBar>
         <ShellContent
-            Title="Home"
-            ContentTemplate="{DataTemplate local:MainPage}"
-            Route="MainPage" 
-            Icon="home.png"/>
+            Title="Borrow"
+            ContentTemplate="{DataTemplate views:BorrowPage}"
+            Route="BorrowPage" 
+            Icon="hand.png"/>
 
         <ShellContent
             Title="Students"
@@ -27,12 +27,6 @@
             ContentTemplate="{DataTemplate views:BooksPage}"
             Route="BooksPage" 
             Icon="book.png"/>
-
-        <ShellContent
-            Title="Statistics"
-            ContentTemplate="{DataTemplate views:StatisticsPage}"
-            Route="StatisticsPage" 
-            Icon="statistics.png"/>
 
         <ShellContent
             Title="ImportExport"

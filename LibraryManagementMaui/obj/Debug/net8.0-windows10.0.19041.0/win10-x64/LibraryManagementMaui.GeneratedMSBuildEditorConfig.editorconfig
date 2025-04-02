@@ -45,12 +45,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.Comp
 build_metadata.AdditionalFiles.TargetPath = Components\BurgerHeader.xaml
 build_metadata.AdditionalFiles.RelativePath = Components\BurgerHeader.xaml
 
-[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/MainContainer.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.MainContainer.xaml
-build_metadata.AdditionalFiles.TargetPath = MainContainer.xaml
-build_metadata.AdditionalFiles.RelativePath = MainContainer.xaml
-
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.MainPage.xaml
@@ -75,17 +69,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View
 build_metadata.AdditionalFiles.TargetPath = View\BooksPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\BooksPage.xaml
 
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/BorrowPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.BorrowPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BorrowPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BorrowPage.xaml
+
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/ImportExportPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.ImportExportPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ImportExportPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ImportExportPage.xaml
-
-[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/StatisticsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.StatisticsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\StatisticsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\StatisticsPage.xaml
 
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/StudentsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
