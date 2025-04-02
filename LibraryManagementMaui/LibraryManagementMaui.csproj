@@ -64,9 +64,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Components\BurgerHeader.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="View\AddingBooksPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

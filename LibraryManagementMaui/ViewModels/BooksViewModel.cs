@@ -14,6 +14,8 @@ using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using Newtonsoft.Json;
 using LibraryManagementMaui.View;
+using LibraryManagementMaui.Services;
+using System.Diagnostics;
 
 namespace LibraryManagementMaui.ViewModels;
 
@@ -21,9 +23,13 @@ public partial class BooksViewModel : ObservableObject
 {
     public BooksViewModel()
     {
-        Books = new ObservableCollection<Book>(booksDictionary.Values);
+        //Books = new ObservableCollection<Book>(booksDictionary.Values);
+        Books = new ObservableCollection<Book>();
+        _ = LoadBooksAsync();
         IsPopupVisible = false;
     }
+
+    private readonly ApiServices _apiService = ApiServices.Instance;
 
     [ObservableProperty]
     ObservableCollection<Book> books;
@@ -33,6 +39,25 @@ public partial class BooksViewModel : ObservableObject
 
     [ObservableProperty]
     private bool isPopupVisible;
+
+    public async Task LoadBooksAsync()
+    {
+        try
+        {
+            var booksList = await _apiService.GetBooksAsync();
+            Books.Clear();
+            foreach (var book in booksList)
+            {
+                Books.Add(book);
+                Debug.WriteLine(book);
+            }
+        }
+        catch (Exception ex)
+        {
+            // Log the exception or notify the user
+            System.Diagnostics.Debug.WriteLine($"Error loading books: {ex.Message}");
+        }
+    }
 
     [RelayCommand]
     async Task Add()

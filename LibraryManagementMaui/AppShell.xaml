@@ -5,7 +5,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:LibraryManagementMaui"
     xmlns:views="clr-namespace:LibraryManagementMaui.View"
-    xmlns:components="clr-namespace:LibraryManagementMaui.Components"
     Shell.FlyoutBehavior="Disabled"
     Title="LibraryManagementMaui">
 
