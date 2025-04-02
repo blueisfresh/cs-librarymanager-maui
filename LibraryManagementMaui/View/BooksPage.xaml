@@ -1,6 +1,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LibraryManagementMaui.View.BooksPage"
+             xmlns:vm="clr-namespace:LibraryManagementMaui.ViewModels"
+             xmlns:models="clr-namespace:LibraryManagementMaui.Models"
              Title="BooksPage">
     <Grid RowDefinitions="Auto, *"
       ColumnDefinitions=".75*, .25*"
@@ -9,7 +11,7 @@
       ColumnSpacing="10">
         <!-- Entry and Button on the top row -->
         <Entry Placeholder="Search for Books"
-               Text="{Binding Text}"
+               Text="{Binding Search}"
                Grid.Row="0"
                Grid.Column="0" />
         <Button Text="Add" 
@@ -21,7 +23,7 @@
         <ScrollView Grid.Row="1" Grid.ColumnSpan="2">
             <CollectionView ItemsSource="{Binding Books}">
                 <CollectionView.ItemTemplate>
-                    <DataTemplate x:DataType="{x:Type x:String}">
+                    <DataTemplate x:DataType="models:Book">
                         <SwipeView>
                             <SwipeView.RightItems>
                                 <SwipeItems>
@@ -35,7 +37,13 @@
                             </SwipeView.LeftItems>
                             <Grid Padding="0,5">
                                 <Frame>
-                                    <Label Text="{Binding .}" FontSize="24"/>
+                                    <Label Text="{Binding Title}" FontSize="18">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer 
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type vm:BooksViewModel}}, Path=ShowDetailCommand}"
+                                                CommandParameter="{Binding .}" />
+                                        </Label.GestureRecognizers>
+                                    </Label>
                                 </Frame>
                             </Grid>
                         </SwipeView>

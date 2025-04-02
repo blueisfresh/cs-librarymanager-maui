@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\view\\window\\detailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\view\\window\\detailswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\view\\window\\detailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\view\\window\\detailswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\viewmodels\\booksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\viewmodels\\booksviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\view\\bookspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\view\\bookspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\viewmodels\\detailswindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\viewmodels\\detailswindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\viewmodels\\mainpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\view\\bookspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\view\\bookspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\librarymanagementmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\librarymanagementmaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryManagementMaui\\Models\\Book.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:23:46.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\AppShell.xaml.cs",
+              "RelativeToolTip": "LibraryManagementMaui\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:22:37.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BooksPage.xaml",
-              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\BooksPage.xaml",
-              "RelativeDocumentMoniker": "LibraryManagementMaui\\View\\BooksPage.xaml",
-              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\BooksPage.xaml",
-              "RelativeToolTip": "LibraryManagementMaui\\View\\BooksPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-31T13:35:06.345Z",
+              "Title": "DetailsWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml.cs",
+              "RelativeToolTip": "LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:19:38.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DetailsWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\DetailsWindowViewModel.cs",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\ViewModels\\DetailsWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\DetailsWindowViewModel.cs",
+              "RelativeToolTip": "LibraryManagementMaui\\ViewModels\\DetailsWindowViewModel.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T07:09:29.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DetailsWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml",
+              "RelativeToolTip": "LibraryManagementMaui\\View\\Window\\DetailsWindow.xaml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T07:00:04.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BooksPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\BooksPage.xaml.cs",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\View\\BooksPage.xaml.cs",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\BooksPage.xaml.cs",
+              "RelativeToolTip": "LibraryManagementMaui\\View\\BooksPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T06:44:28.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "BooksViewModel.cs",
               "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\BooksViewModel.cs",
               "RelativeDocumentMoniker": "LibraryManagementMaui\\ViewModels\\BooksViewModel.cs",
               "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\BooksViewModel.cs",
               "RelativeToolTip": "LibraryManagementMaui\\ViewModels\\BooksViewModel.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:34:46.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\MainPageViewModel.cs",
-              "RelativeDocumentMoniker": "LibraryManagementMaui\\ViewModels\\MainPageViewModel.cs",
-              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\MainPageViewModel.cs",
-              "RelativeToolTip": "LibraryManagementMaui\\ViewModels\\MainPageViewModel.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA8AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T13:26:54.763Z",
+              "DocumentIndex": 8,
+              "Title": "LibraryManagementMaui",
+              "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\LibraryManagementMaui.csproj",
+              "RelativeDocumentMoniker": "LibraryManagementMaui\\LibraryManagementMaui.csproj",
+              "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\LibraryManagementMaui.csproj",
+              "RelativeToolTip": "LibraryManagementMaui\\LibraryManagementMaui.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-02T06:16:23.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MainPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "LibraryManagementMaui\\MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\MainPage.xaml.cs",
               "RelativeToolTip": "LibraryManagementMaui\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T13:17:52.802Z",
               "EditorCaption": ""

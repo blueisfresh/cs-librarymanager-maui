@@ -57,12 +57,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.Main
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/NestedPage1.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.NestedPage1.xaml
-build_metadata.AdditionalFiles.TargetPath = NestedPage1.xaml
-build_metadata.AdditionalFiles.RelativePath = NestedPage1.xaml
-
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.Resources.Styles.Colors.xaml
@@ -98,3 +92,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.StudentsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\StudentsPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\StudentsPage.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/Window/DetailsWindow.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.Window.DetailsWindow.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Window\DetailsWindow.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Window\DetailsWindow.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/Window/NestedPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.Window.NestedPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Window\NestedPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Window\NestedPage1.xaml
