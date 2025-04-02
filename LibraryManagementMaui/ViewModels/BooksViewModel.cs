@@ -13,6 +13,7 @@ using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
 using Newtonsoft.Json;
+using LibraryManagementMaui.View;
 
 namespace LibraryManagementMaui.ViewModels;
 
@@ -34,8 +35,9 @@ public partial class BooksViewModel : ObservableObject
     private bool isPopupVisible;
 
     [RelayCommand]
-    void Add()
+    async Task Add()
     {
+        await Shell.Current.GoToAsync(nameof(AddingBooksPage));
         // Open the add books window
     }
 
@@ -46,9 +48,13 @@ public partial class BooksViewModel : ObservableObject
     }
 
     [RelayCommand]
-    void EditBook()
+    async Task EditBook(Book selectedBook)
     {
-
+        // Serialize the Book object to JSON.
+        var bookJson = JsonConvert.SerializeObject(selectedBook);
+        // Escape the JSON string.
+        var encodedBookJson = WebUtility.UrlEncode(bookJson);
+        await Shell.Current.GoToAsync($"{nameof(AddingBooksPage)}?book={encodedBookJson}");
     }
 
     [RelayCommand]

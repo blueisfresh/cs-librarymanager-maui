@@ -8,8 +8,8 @@ namespace LibraryManagementMaui
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(NestedPage1), typeof(NestedPage1));
             Routing.RegisterRoute(nameof(DetailsWindow), typeof(DetailsWindow));
+            Routing.RegisterRoute(nameof(AddingBooksPage), typeof(AddingBooksPage));
         }
     }
 }

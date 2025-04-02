@@ -5,18 +5,8 @@
              Title="BorrowPage">
     <VerticalStackLayout>
         <Label 
-            Text="BorrowPage"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-        <Label 
-            Text="StatisticsWindow will be shown here"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-
-        <Label 
-            Text="Current list of all Borrowed Books will be shown here"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        Text="Welcome to .NET MAUI!"
+        VerticalOptions="Center" 
+        HorizontalOptions="Center" />
     </VerticalStackLayout>
 </ContentPage>

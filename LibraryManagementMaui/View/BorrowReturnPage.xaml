@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LibraryManagementMaui.View.BorrowReturnPage"
+             Title="BorrowReturnPage">
+
+    <!-- ScrollView ensures content is scrollable on smaller screens -->
+    <ScrollView>
+        <!-- A Grid with row definitions for each section -->
+        <Grid Padding="20"
+              RowSpacing="20"
+              ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Title row -->
+                <RowDefinition Height="Auto"/>
+                <!-- Aktion (Ausleihe/Rückgabe) -->
+                <RowDefinition Height="Auto"/>
+                <!-- Schülerausweisnummer -->
+                <RowDefinition Height="Auto"/>
+                <!-- 'Bücher hinzufügen' label -->
+                <RowDefinition Height="Auto"/>
+                <!-- Buchnummer row (entry + button) -->
+                <RowDefinition Height="Auto"/>
+                <!-- 'Ausgewählte Bücher' label -->
+                <RowDefinition Height="Auto"/>
+                <!-- List of books -->
+                <RowDefinition Height="Auto"/>
+                <!-- Confirm button -->
+            </Grid.RowDefinitions>
+
+            <!-- 1) Header -->
+            <Label Grid.Row="0"
+                   Text="Ausleihe / Rückgabe"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalTextAlignment="Center" />
+
+            <!-- 2) Aktion (Ausleihe / Rückgabe) -->
+            <StackLayout Grid.Row="1"
+                         Orientation="Horizontal"
+                         Margin="0,0,0,0">
+                <Label Text="Aktion:"
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <RadioButton Content="Ausleihe"
+                             GroupName="Action"
+                             IsChecked="{Binding IsBorrowing}"
+                             Margin="0,0,10,0"/>
+                <RadioButton Content="Rückgabe"
+                             GroupName="Action"
+                             IsChecked="{Binding IsReturning}" />
+            </StackLayout>
+
+            <!-- 3) Schülerausweisnummer (only visible if returning) -->
+            <StackLayout Grid.Row="2"
+                         Orientation="Horizontal"
+                         IsVisible="{Binding IsReturningVisible}"
+                         Margin="0,0,0,0">
+                <Label Text="Schülerausweisnummer:"
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0"/>
+                <Entry WidthRequest="200"
+                       Text="{Binding StudentLibraryCardNum, Mode=TwoWay}" />
+            </StackLayout>
+
+            <!-- 4) 'Bücher hinzufügen' label -->
+            <Label Grid.Row="3"
+                   Text="Bücher hinzufügen:"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,0" />
+
+            <!-- 5) Buchnummer row (label + entry + button) -->
+            <StackLayout Grid.Row="4"
+                         Orientation="Horizontal"
+                         Margin="0,0,0,0">
+                <Label Text="Buchnummer:"
+                       VerticalOptions="Center"
+                       Margin="0,0,10,0" />
+                <Entry WidthRequest="100"
+                       Margin="0,0,5,0"
+                       Text="{Binding BookNumber, Mode=TwoWay}" />
+                <Button Text="Add"
+                        WidthRequest="50"
+                        Command="{Binding AddBookCommand}" />
+            </StackLayout>
+
+            <!-- 6) 'Ausgewählte Bücher' label -->
+            <Label Grid.Row="5"
+                   Text="Ausgewählte Bücher:"
+                   FontAttributes="Bold"
+                   Margin="0,0,0,0" />
+
+            <!-- 7) List of books -->
+            <CollectionView Grid.Row="6"
+                            ItemsSource="{Binding SelectedBooks}"
+                            HeightRequest="150"
+                            Margin="0,0,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding Title}" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- 8) Confirm button -->
+            <Button Grid.Row="7"
+                    Text="Bestätigen"
+                    WidthRequest="100"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,0"
+                    Command="{Binding ConfirmActionCommand}" />
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

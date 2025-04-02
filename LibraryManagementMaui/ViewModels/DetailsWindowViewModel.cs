@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using LibraryManagementMaui.Models;
 using Newtonsoft.Json;
 using System;
@@ -33,4 +34,15 @@ public partial class DetailsWindowViewModel : ObservableObject
     }
     private string _bookJson;
 
+    [RelayCommand]
+    void SaveBook()
+    {
+        if (SelectedBook != null) // und es existiert schon
+        {
+            // update with api
+        }
+        else { 
+            // create a new row with api
+        }
+    }
 }

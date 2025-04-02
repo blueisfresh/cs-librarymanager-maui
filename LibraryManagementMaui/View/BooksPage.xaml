@@ -89,7 +89,7 @@
              you can set Scale="0" and animate it in code-behind or via your ViewModel. -->
 
             <StackLayout Spacing="20">
-                <Label Text="This is the popup content!" 
+                <Label Text="Row is Deleted" 
                    FontSize="20" 
                    HorizontalOptions="Center"/>
 

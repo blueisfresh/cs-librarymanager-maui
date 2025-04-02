@@ -13,11 +13,6 @@ namespace LibraryManagementMaui
             BindingContext = MainPageVM;
         }
 
-        private async void navigateBtn_Clicked(object sender, EventArgs e)
-        {
-            await Shell.Current.GoToAsync(nameof(NestedPage1));
-        }
-
     }
 
 }

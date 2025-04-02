@@ -63,6 +63,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.Reso
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/AddingBooksPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.AddingBooksPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddingBooksPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddingBooksPage.xaml
+
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/BooksPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.BooksPage.xaml
@@ -74,6 +80,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.BorrowPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\BorrowPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\BorrowPage.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/BorrowReturnPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.BorrowReturnPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\BorrowReturnPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\BorrowReturnPage.xaml
 
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/ImportExportPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -92,9 +104,3 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.Window.DetailsWindow.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Window\DetailsWindow.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Window\DetailsWindow.xaml
-
-[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/Window/NestedPage1.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.Window.NestedPage1.xaml
-build_metadata.AdditionalFiles.TargetPath = View\Window\NestedPage1.xaml
-build_metadata.AdditionalFiles.RelativePath = View\Window\NestedPage1.xaml

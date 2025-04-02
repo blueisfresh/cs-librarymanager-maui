@@ -11,9 +11,9 @@
 
     <TabBar>
         <ShellContent
-            Title="Borrow"
-            ContentTemplate="{DataTemplate views:BorrowPage}"
-            Route="BorrowPage" 
+            Title="Borrow and Return"
+            ContentTemplate="{DataTemplate views:BorrowReturnPage}"
+            Route="BorrowReturnPage" 
             Icon="hand.png"/>
 
         <ShellContent
