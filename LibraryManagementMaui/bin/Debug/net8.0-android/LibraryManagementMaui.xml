@@ -64,6 +64,22 @@
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopupCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopup"/>.</summary>
         </member>
+        <member name="T:LibraryManagementMaui.ViewModels.BorrowReturnViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.goToStatisticsPageCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToStatisticsPageCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToStatisticsPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToStatisticsPage"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.goToBorrowedBooksPageCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToBorrowedBooksPageCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToBorrowedBooksPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToBorrowedBooksPage"/>.</summary>
+        </member>
         <member name="T:LibraryManagementMaui.ViewModels.DetailsWindowViewModel">
             <inheritdoc/>
             <inheritdoc/>

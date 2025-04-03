@@ -10,6 +10,8 @@ namespace LibraryManagementMaui
             InitializeComponent();
             Routing.RegisterRoute(nameof(DetailsWindow), typeof(DetailsWindow));
             Routing.RegisterRoute(nameof(AddingBooksPage), typeof(AddingBooksPage));
+            Routing.RegisterRoute(nameof(StatisticsPage), typeof(StatisticsPage));
+            Routing.RegisterRoute(nameof(BorrowedBooksPage), typeof(BorrowedBooksPage));
         }
     }
 }
