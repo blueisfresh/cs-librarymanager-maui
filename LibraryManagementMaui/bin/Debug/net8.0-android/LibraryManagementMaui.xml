@@ -64,6 +64,15 @@
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopupCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.ClosePopup"/>.</summary>
         </member>
+        <member name="T:LibraryManagementMaui.ViewModels.BorrowedBooksViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowedBooksViewModel.BorrowedBooks">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowedBooksViewModel.borrowedBooks"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowedBooksViewModel.IsEmpty">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowedBooksViewModel.isEmpty"/>
+        </member>
         <member name="T:LibraryManagementMaui.ViewModels.BorrowReturnViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -111,6 +120,12 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPopupVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPopupVisible" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BorrowedBooks">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BorrowedBooks" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -128,6 +143,12 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPopupVisible">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPopupVisible" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BorrowedBooks">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BorrowedBooks" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEmpty">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
         </member>
     </members>
 </doc>
