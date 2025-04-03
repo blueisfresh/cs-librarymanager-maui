@@ -21,6 +21,23 @@ namespace LibraryManagementMaui.ViewModels;
 
 public partial class BooksViewModel : ObservableObject
 {
+    private bool isLoading;
+    public bool IsLoading
+    {
+        get => isLoading;
+        set
+        {
+            // SetProperty updates the value and raises PropertyChanged if needed.
+            if (SetProperty(ref isLoading, value))
+            {
+                // Manually notify that IsNotLoading has changed.
+                OnPropertyChanged(nameof(IsNotLoading));
+            }
+        }
+    }
+
+    // Computed property that reflects the inverse of IsLoading.
+    public bool IsNotLoading => !IsLoading;
     public BooksViewModel()
     {
         //Books = new ObservableCollection<Book>(booksDictionary.Values);
@@ -42,6 +59,7 @@ public partial class BooksViewModel : ObservableObject
 
     public async Task LoadBooksAsync()
     {
+        IsLoading = true;
         try
         {
             var booksList = await _apiService.GetBooksAsync();
@@ -56,6 +74,10 @@ public partial class BooksViewModel : ObservableObject
         {
             // Log the exception or notify the user
             System.Diagnostics.Debug.WriteLine($"Error loading books: {ex.Message}");
+        }
+        finally
+        {
+            IsLoading = false;
         }
     }
 

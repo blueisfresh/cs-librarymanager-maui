@@ -5,12 +5,19 @@
              xmlns:models="clr-namespace:LibraryManagementMaui.Models"
              Title="BooksPage">
     <Grid>
+        <!-- Loading Indicator -->
+        <ActivityIndicator IsRunning="{Binding IsLoading}"
+               IsVisible="{Binding IsLoading}"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
         
-    <Grid RowDefinitions="Auto, *"
+        <Grid RowDefinitions="Auto, *"
       ColumnDefinitions=".75*, .25*"
       Padding="10"
       RowSpacing="10"
-      ColumnSpacing="10">
+      ColumnSpacing="10"
+              IsVisible="{Binding IsNotLoading}">
+            
         <!-- Entry and Button on the top row -->
         <Entry Placeholder="Search for Books"
                Text="{Binding Search}"
