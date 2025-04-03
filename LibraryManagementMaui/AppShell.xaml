@@ -28,7 +28,7 @@
             Icon="book.png"/>
 
         <ShellContent
-            Title="ImportExport"
+            Title="Import and Export"
             ContentTemplate="{DataTemplate views:ImportExportPage}"
             Route="ImportExportPage" 
             Icon="import_export.png"/>

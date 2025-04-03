@@ -4,17 +4,16 @@
              x:Class="LibraryManagementMaui.View.ImportExportPage"
              Title="ImportExportPage">
     <ContentPage.Content>
-        <Grid Margin="20">
-            <!-- Title -->
-            <Label Text="Import / Export von Daten"
-             FontAttributes="Bold"
-             FontSize="20"
-             HorizontalOptions="Center"
-             VerticalOptions="Start"
-             Margin="0,10,0,20"/>
+        <Grid Margin="20, 0, 20, 0">
+
+            <!-- Define rows: scroll bar (future use) + main content -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
 
             <!-- Export Section -->
-            <VerticalStackLayout VerticalOptions="Start" Margin="10,60,0,0">
+            <VerticalStackLayout VerticalOptions="Start" Margin="10,10,0,0">
                 <Label Text="Exportieren:" FontAttributes="Bold" Margin="0,0,0,5"/>
 
                 <!-- CheckBox and Label for "Bücher" -->
@@ -84,12 +83,6 @@
                 Command="{Binding ImportCommand}"/>
             </VerticalStackLayout>
 
-            <!-- Back to Main Menu Button -->
-            <Button Text="Zurück zum Hauptmenü"
-              WidthRequest="180"
-              HorizontalOptions="Center"
-              VerticalOptions="End"
-              Margin="0,10,0,0"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
