@@ -3,7 +3,7 @@
              x:Class="LibraryManagementMaui.View.BooksPage"
              xmlns:vm="clr-namespace:LibraryManagementMaui.ViewModels"
              xmlns:models="clr-namespace:LibraryManagementMaui.Models"
-             Title="BooksPage">
+             Title="Books">
     <Grid>
         <!-- Loading Indicator -->
         <ActivityIndicator IsRunning="{Binding IsLoading}"
