@@ -3,10 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LibraryManagementMaui.View.Window.DetailsWindowStudent"
              Title="DetailsWindowStudent">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ScrollView>
+        <VerticalStackLayout Padding="20"
+                             Spacing="15">
+
+            <!-- LibraryCardNum -->
+            <Label Text="LibraryCardNum:"
+                   FontAttributes="Bold" />
+            <Label Text="{Binding SelectedStudent.LibraryCardNum}"
+                   FontSize="18" />
+
+            <!-- FirstName -->
+            <Label Text="FirstName:"
+                   FontAttributes="Bold" />
+            <Label Text="{Binding SelectedStudent.FirstName}"
+                   FontSize="18" />
+
+            <!-- LastName -->
+            <Label Text="LastName:"
+                   FontAttributes="Bold" />
+            <Label Text="{Binding SelectedStudent.LastName}"
+                   FontSize="18" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

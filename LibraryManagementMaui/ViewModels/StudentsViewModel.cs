@@ -102,7 +102,7 @@ public partial class StudentsViewModel : ObservableObject
     [RelayCommand]
     async Task AddStudents()
     {
-        //await Shell.Current.GoToAsync(nameof(AddingStudentPage));
+        await Shell.Current.GoToAsync(nameof(AddingStudentPage));
     }
 
     [RelayCommand]
