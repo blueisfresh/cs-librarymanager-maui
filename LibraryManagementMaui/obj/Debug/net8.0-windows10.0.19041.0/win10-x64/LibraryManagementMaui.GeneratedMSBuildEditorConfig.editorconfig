@@ -57,6 +57,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View
 build_metadata.AdditionalFiles.TargetPath = View\AddingBooksPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AddingBooksPage.xaml
 
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/AddingStudentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.AddingStudentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddingStudentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddingStudentPage.xaml
+
 [C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/AddingStudentsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.AddingStudentsPage.xaml
@@ -104,3 +110,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.Window.DetailsWindow.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Window\DetailsWindow.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Window\DetailsWindow.xaml
+
+[C:/Users/elias/Desktop/fifth block/LibraryManagementMaui/LibraryManagementMaui/View/Window/DetailsWindowStudent.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = LibraryManagementMaui.View.Window.DetailsWindowStudent.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Window\DetailsWindowStudent.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Window\DetailsWindowStudent.xaml

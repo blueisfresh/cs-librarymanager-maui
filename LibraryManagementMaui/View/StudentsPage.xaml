@@ -2,11 +2,109 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LibraryManagementMaui.View.StudentsPage"
-             Title="StudentsPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="StudentsPage"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             xmlns:vm="clr-namespace:LibraryManagementMaui.ViewModels"
+             xmlns:models="clr-namespace:LibraryManagementMaui.Models"
+             Title="Students">
+    <Grid>
+        <!-- Loading Indicator -->
+        <ActivityIndicator IsRunning="{Binding IsLoading}"
+                           IsVisible="{Binding IsLoading}"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" />
+
+        <Grid RowDefinitions="Auto, *"
+              ColumnDefinitions=".75*, .25*"
+              Padding="10"
+              RowSpacing="10"
+              ColumnSpacing="10"
+              IsVisible="{Binding IsNotLoading}">
+
+            <!-- Entry and Button on the top row -->
+            <Entry Placeholder="Search for Students"
+                   Text="{Binding Search}"
+                   Grid.Row="0"
+                   Grid.Column="0" />
+            <Button Text="Add"
+                    Command="{Binding AddStudentsCommand}"
+                    Grid.Row="0"
+                    Grid.Column="1" />
+
+            <!-- ScrollView taking up the rest of the space -->
+            <ScrollView Grid.Row="1"
+                        Grid.ColumnSpan="2">
+                <CollectionView ItemsSource="{Binding Students}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="models:Student">
+                            <SwipeView>
+                                <SwipeView.RightItems>
+                                    <SwipeItems>
+                                        <SwipeItem Text="Delete"
+                                                   BackgroundColor="Red"
+                                                   Command="{Binding Source={RelativeSource AncestorType={x:Type vm:StudentsViewModel}}, Path=DeleteStudentCommand}"
+                                                   CommandParameter="{Binding .}" />
+                                    </SwipeItems>
+                                </SwipeView.RightItems>
+                                <SwipeView.LeftItems>
+                                    <SwipeItems>
+                                        <SwipeItem Text="Edit"
+                                                   BackgroundColor="Blue"
+                                                   Command="{Binding Source={RelativeSource AncestorType={x:Type vm:StudentsViewModel}}, Path=EditStudentCommand}"
+                                                   CommandParameter="{Binding .}" />
+                                    </SwipeItems>
+                                </SwipeView.LeftItems>
+                                <Grid Padding="0,5">
+                                    <Frame>
+                                        <Label Text="{Binding FirstName}"
+                                               FontSize="18">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={x:Type vm:StudentsViewModel}}, Path=ShowDetailCommand}"
+                                                                      CommandParameter="{Binding .}" />
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </Frame>
+                                </Grid>
+                            </SwipeView>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+
+
+        </Grid>
+
+        <!-- Popup Overlay -->
+        <Grid x:Name="PopupOverlay"
+              IsVisible="{Binding IsPopupVisible}"
+              BackgroundColor="#80000000"
+              VerticalOptions="FillAndExpand"
+              HorizontalOptions="FillAndExpand">
+
+            <!-- Tapping the dimmed background can close the popup -->
+            <Grid.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding ClosePopupCommand}" />
+            </Grid.GestureRecognizers>
+
+            <!-- The popup card -->
+            <Frame VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Padding="20"
+                   Margin="40"
+                   BackgroundColor="White"
+                   CornerRadius="20"
+                   HasShadow="True"
+                   TranslationY="0">
+
+
+                <StackLayout Spacing="20">
+                    <Label Text="Row is Deleted"
+                           FontSize="20"
+                           HorizontalOptions="Center" />
+
+                    <Button Text="Close"
+                            Command="{Binding ClosePopupCommand}"
+                            HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+        </Grid>
+    </Grid>
 </ContentPage>

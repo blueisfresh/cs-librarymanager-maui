@@ -106,7 +106,6 @@ public partial class BooksViewModel : ObservableObject
     async Task Add()
     {
         await Shell.Current.GoToAsync(nameof(AddingBooksPage));
-        // Open the add books window
     }
 
     [RelayCommand]

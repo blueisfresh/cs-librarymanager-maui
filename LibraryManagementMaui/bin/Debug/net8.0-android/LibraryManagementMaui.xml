@@ -117,6 +117,65 @@
         <member name="P:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.SaveBookCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.SaveBook"/>.</summary>
         </member>
+        <member name="T:LibraryManagementMaui.ViewModels.StudentsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.Students">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.StudentsViewModel.students"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.Search">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.StudentsViewModel.search"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.IsPopupVisible">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.StudentsViewModel.isPopupVisible"/>
+        </member>
+        <member name="M:LibraryManagementMaui.ViewModels.StudentsViewModel.OnSearchChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.Search"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.Search"/> is changed.</remarks>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.StudentsViewModel.addStudentsCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.AddStudentsCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.AddStudentsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.StudentsViewModel.AddStudents"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.StudentsViewModel.deleteStudentsCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.DeleteStudentsCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.DeleteStudentsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.StudentsViewModel.DeleteStudents(LibraryManagementMaui.Models.Student)"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.StudentsViewModel.editStudentCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.EditStudentCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.EditStudentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.StudentsViewModel.EditStudent(LibraryManagementMaui.Models.Student)"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.StudentsViewModel.showDetailCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.ShowDetailCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.ShowDetailCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.StudentsViewModel.ShowDetail(LibraryManagementMaui.Models.Student)"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.StudentsViewModel.showPopupCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.ShowPopupCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.ShowPopupCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.StudentsViewModel.ShowPopup"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.StudentsViewModel.closePopupCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.StudentsViewModel.ClosePopupCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.StudentsViewModel.ClosePopupCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.StudentsViewModel.ClosePopup"/>.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
@@ -144,6 +203,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEmpty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Students">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Students" generated properties.</summary>
+        </member>
         <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
             <summary>
             A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
@@ -170,6 +232,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEmpty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Students">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Students" generated properties.</summary>
         </member>
     </members>
 </doc>
