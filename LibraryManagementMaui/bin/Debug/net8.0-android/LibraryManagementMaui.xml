@@ -120,24 +120,24 @@
         <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToBorrowedBooksPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToBorrowedBooksPage"/>.</summary>
         </member>
+        <member name="T:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel.SelectedBook">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel.selectedBook"/>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel.saveBookCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel.SaveBookCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel.SaveBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.DetailsWindowBookViewModel.SaveBook"/>.</summary>
+        </member>
         <member name="T:LibraryManagementMaui.ViewModels.DetailsWindowStudentViewModel">
             <inheritdoc/>
         </member>
         <member name="P:LibraryManagementMaui.ViewModels.DetailsWindowStudentViewModel.SelectedStudent">
             <inheritdoc cref="F:LibraryManagementMaui.ViewModels.DetailsWindowStudentViewModel.selectedStudent"/>
-        </member>
-        <member name="T:LibraryManagementMaui.ViewModels.DetailsWindowViewModel">
-            <inheritdoc/>
-            <inheritdoc/>
-        </member>
-        <member name="P:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.SelectedBook">
-            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.selectedBook"/>
-        </member>
-        <member name="F:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.saveBookCommand">
-            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.SaveBookCommand"/>.</summary>
-        </member>
-        <member name="P:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.SaveBookCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.DetailsWindowViewModel.SaveBook"/>.</summary>
         </member>
         <member name="T:LibraryManagementMaui.ViewModels.StudentsViewModel">
             <inheritdoc/>

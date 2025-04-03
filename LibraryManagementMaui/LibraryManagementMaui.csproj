@@ -96,6 +96,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="View\Window\DetailsWindowBook.xaml.cs">
+	    <DependentUpon>DetailsWindowBook.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="View\AddingBooksPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -114,13 +120,10 @@
 	  <MauiXaml Update="View\StatisticsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\Window\DetailsWindow.xaml">
+	  <MauiXaml Update="View\Window\DetailsWindowBook.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\BooksPage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\ImportExportPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\StudentsPage.xaml">

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LibraryManagementMaui.View.Window.DetailsWindow"
+             Title="DetailsWindow">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+
+            <!-- Book Number -->
+            <Label Text="Book Number:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.BookNum}" FontSize="18" />
+
+            <!-- Title -->
+            <Label Text="Title:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.Title}" FontSize="18" />
+
+            <!-- Author -->
+            <Label Text="Author:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.Author}" FontSize="18" />
+
+            <!-- Publisher -->
+            <Label Text="Publisher:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.Publisher}" FontSize="18" />
+
+            <!-- ISBN -->
+            <Label Text="ISBN:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.ISBN}" FontSize="18" />
+
+            <!-- Publication Place -->
+            <Label Text="Publication Place:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.PublicationPlace}" FontSize="18" />
+
+            <!-- Publication Date -->
+            <Label Text="Publication Date:" FontAttributes="Bold" />
+            <Label Text="{Binding SelectedBook.PublicationDate, StringFormat='{0:yyyy-MM-dd}'}" FontSize="18" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

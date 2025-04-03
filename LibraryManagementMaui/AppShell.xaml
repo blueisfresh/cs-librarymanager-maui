@@ -27,10 +27,5 @@
             Route="BooksPage" 
             Icon="book.png"/>
 
-        <ShellContent
-            Title="Import and Export"
-            ContentTemplate="{DataTemplate views:ImportExportPage}"
-            Route="ImportExportPage" 
-            Icon="import_export.png"/>
     </TabBar>
 </Shell>

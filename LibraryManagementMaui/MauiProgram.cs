@@ -16,6 +16,9 @@ namespace LibraryManagementMaui
                 });
 
 #if DEBUG
+
+
+
     		builder.Logging.AddDebug();
 #endif
 
