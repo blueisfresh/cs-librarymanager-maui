@@ -6,9 +6,19 @@
     <members>
         <member name="T:LibraryManagementMaui.ViewModels.AddingBooksViewModel">
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:LibraryManagementMaui.ViewModels.AddingBooksViewModel.SelectedBook">
             <inheritdoc cref="F:LibraryManagementMaui.ViewModels.AddingBooksViewModel.selectedBook"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.AddingBooksViewModel.ActionButtonText">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.AddingBooksViewModel.actionButtonText"/>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.AddingBooksViewModel.saveBookCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.AddingBooksViewModel.SaveBookCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.AddingBooksViewModel.SaveBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.AddingBooksViewModel.SaveBookAsync"/>.</summary>
         </member>
         <member name="T:LibraryManagementMaui.ViewModels.BooksViewModel">
             <inheritdoc/>
@@ -28,6 +38,11 @@
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.IsPopupVisible">
             <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BooksViewModel.isPopupVisible"/>
         </member>
+        <member name="M:LibraryManagementMaui.ViewModels.BooksViewModel.OnSearchChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.Search"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.Search"/> is changed.</remarks>
+        </member>
         <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.addCommand">
             <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.AddCommand"/>.</summary>
         </member>
@@ -38,7 +53,7 @@
             <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBookCommand"/>.</summary>
         </member>
         <member name="P:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBookCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBook"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BooksViewModel.DeleteBook(LibraryManagementMaui.Models.Book)"/>.</summary>
         </member>
         <member name="F:LibraryManagementMaui.ViewModels.BooksViewModel.editBookCommand">
             <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BooksViewModel.EditBookCommand"/>.</summary>
@@ -111,6 +126,9 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedBook">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedBook" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ActionButtonText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ActionButtonText" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Books">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Books" generated properties.</summary>
         </member>
@@ -134,6 +152,9 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedBook">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedBook" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ActionButtonText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ActionButtonText" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Books">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Books" generated properties.</summary>

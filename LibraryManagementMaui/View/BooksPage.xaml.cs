@@ -11,4 +11,15 @@ public partial class BooksPage : ContentPage
         BooksVM = new BooksViewModel();
         BindingContext = BooksVM;
     }
+
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+
+        if (BindingContext is BooksViewModel vm)
+        {
+            await vm.LoadBooksAsync();
+        }
+    }
+
 }

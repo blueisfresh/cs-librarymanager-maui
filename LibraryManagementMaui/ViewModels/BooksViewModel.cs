@@ -46,13 +46,33 @@ public partial class BooksViewModel : ObservableObject
         IsPopupVisible = false;
     }
 
+    private List<Book> allBooks = new(); // Unfiltered list to restore when clearing search
+
     private readonly ApiServices _apiService = ApiServices.Instance;
 
     [ObservableProperty]
     ObservableCollection<Book> books;
 
     [ObservableProperty]
-    string search;
+    private string search;
+
+    partial void OnSearchChanged(string value)
+    {
+        if (string.IsNullOrWhiteSpace(value))
+        {
+            // Show all books when search is cleared
+            Books = new ObservableCollection<Book>(allBooks);
+        }
+        else
+        {
+            // Filter case-insensitively
+            var filtered = allBooks
+                .Where(b => b.Title.Contains(value, StringComparison.OrdinalIgnoreCase))
+                .ToList();
+
+            Books = new ObservableCollection<Book>(filtered);
+        }
+    }
 
     [ObservableProperty]
     private bool isPopupVisible;
@@ -63,11 +83,12 @@ public partial class BooksViewModel : ObservableObject
         try
         {
             var booksList = await _apiService.GetBooksAsync();
+            allBooks = booksList;
+
             Books.Clear();
-            foreach (var book in booksList)
+            foreach (var book in allBooks)
             {
                 Books.Add(book);
-                Debug.WriteLine(book);
             }
         }
         catch (Exception ex)
@@ -89,8 +110,9 @@ public partial class BooksViewModel : ObservableObject
     }
 
     [RelayCommand]
-    async Task DeleteBook()
+    async Task DeleteBook(Book selectedBook)
     {
+        await _apiService.DeleteBookAsync(selectedBook.BookNum);
         ShowPopup();
     }
 
@@ -128,6 +150,7 @@ public partial class BooksViewModel : ObservableObject
         IsPopupVisible = false;
     }
 
+    // Test Data before API got connected
     Dictionary<string, Book> booksDictionary = new Dictionary<string, Book>
     {
         // Note: The row with test values (BookNum "00001-2022") is omitted
