@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\viewmodels\\borrowreturnviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\view\\borrowreturnpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\view\\borrowreturnpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|solutionrelative:librarymanagementmaui\\services\\apiservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{86E24BF5-5460-4268-BFA0-CE302646BBBD}|LibraryManagementMaui\\LibraryManagementMaui.csproj|c:\\users\\elias\\desktop\\fifth block\\librarymanagementmaui\\librarymanagementmaui\\view\\window\\detailswindowbook.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -52,27 +52,27 @@
               "RelativeDocumentMoniker": "LibraryManagementMaui\\ViewModels\\BorrowReturnViewModel.cs",
               "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\ViewModels\\BorrowReturnViewModel.cs",
               "RelativeToolTip": "LibraryManagementMaui\\ViewModels\\BorrowReturnViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAuwLMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T06:22:37.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "ApiServices.cs",
               "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\Services\\ApiServices.cs",
               "RelativeDocumentMoniker": "LibraryManagementMaui\\Services\\ApiServices.cs",
               "ToolTip": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\Services\\ApiServices.cs",
               "RelativeToolTip": "LibraryManagementMaui\\Services\\ApiServices.cs",
-              "ViewState": "AgIAADQBAAAAAAAAAAAmwEoBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T12:28:45.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BorrowReturnPage.xaml",
               "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\View\\BorrowReturnPage.xaml",
               "RelativeDocumentMoniker": "LibraryManagementMaui\\View\\BorrowReturnPage.xaml",
@@ -80,8 +80,7 @@
               "RelativeToolTip": "LibraryManagementMaui\\View\\BorrowReturnPage.xaml",
               "ViewState": "AgIAAGYAAAAAAAAAAAAqwH0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-03T13:19:44.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T13:19:44.335Z"
             },
             {
               "$type": "Document",
@@ -133,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\elias\\Desktop\\fifth block\\LibraryManagementMaui\\LibraryManagementMaui\\Models\\Student.cs",
               "RelativeDocumentMoniker": "LibraryManagementMaui\\Models\\Student.cs",
@@ -141,8 +140,7 @@
               "RelativeToolTip": "LibraryManagementMaui\\Models\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T11:12:40.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-03T11:12:40.851Z"
             }
           ]
         }

@@ -108,9 +108,18 @@ public partial class BorrowReturnViewModel : ObservableObject
             // Process borrowing for each selected book.
             foreach (var book in SelectedBooks)
             {
+                // Check if the book is already borrowed.
+                var activeBorrow = await ApiServices.Instance.GetActiveBorrowByBookNumAsync(book.BookNum);
+                if (activeBorrow != null)
+                {
+                    await Shell.Current.DisplayAlert("Book Already Borrowed",
+                        $"The book '{book.Title}' is currently borrowed and cannot be borrowed again until it is returned.", "OK");
+                    continue;
+                }
+
+                // Create a new borrow record.
                 var borrow = new Borrow
                 {
-                    // Use the correct property names from your models.
                     BookBookNum = book.BookNum,
                     StudentLibraryCardNum = student.LibraryCardNum,
                     BorrowDate = DateTime.Now,
@@ -122,12 +131,12 @@ public partial class BorrowReturnViewModel : ObservableObject
                 if (createdBorrow != null)
                 {
                     await Shell.Current.DisplayAlert("Success",
-                        $"Borrowed {book.Title} until {borrow.DueDate?.ToShortDateString()}.", "OK");
+                        $"Borrowed '{book.Title}' until {borrow.DueDate?.ToShortDateString()}.", "OK");
                 }
                 else
                 {
                     await Shell.Current.DisplayAlert("Error",
-                        $"Failed to borrow {book.Title}.", "OK");
+                        $"Failed to borrow '{book.Title}'.", "OK");
                 }
             }
         }
@@ -138,24 +147,23 @@ public partial class BorrowReturnViewModel : ObservableObject
             {
                 // Retrieve the active borrow record for the given book.
                 var activeBorrow = await ApiServices.Instance.GetActiveBorrowByBookNumAsync(book.BookNum);
-                if (activeBorrow != null)
+                if (activeBorrow == null)
                 {
-                    bool success = await ApiServices.Instance.DeleteBorrowAsync(activeBorrow.BorrowID);
-                    if (success)
-                    {
-                        await Shell.Current.DisplayAlert("Success",
-                            $"Returned {book.Title} successfully.", "OK");
-                    }
-                    else
-                    {
-                        await Shell.Current.DisplayAlert("Error",
-                            $"Failed to return {book.Title}.", "OK");
-                    }
+                    await Shell.Current.DisplayAlert("Not Borrowed",
+                        $"The book '{book.Title}' is not currently borrowed and cannot be returned.", "OK");
+                    continue;
+                }
+
+                bool success = await ApiServices.Instance.DeleteBorrowAsync(activeBorrow.BorrowID);
+                if (success)
+                {
+                    await Shell.Current.DisplayAlert("Success",
+                        $"Returned '{book.Title}' successfully.", "OK");
                 }
                 else
                 {
-                    await Shell.Current.DisplayAlert("Not Found",
-                        $"No borrow record found for {book.Title}.", "OK");
+                    await Shell.Current.DisplayAlert("Error",
+                        $"Failed to return '{book.Title}'.", "OK");
                 }
             }
         }
@@ -165,15 +173,15 @@ public partial class BorrowReturnViewModel : ObservableObject
         DueDate = null;
     }
 
-
     [RelayCommand]
     async Task GoToStatisticsPage()
     {
         await Shell.Current.GoToAsync(nameof(StatisticsPage));
     }
+
     [RelayCommand]
     async Task GoToBorrowedBooksPage()
     {
-       await Shell.Current.GoToAsync(nameof(BorrowedBooksPage));
+        await Shell.Current.GoToAsync(nameof(BorrowedBooksPage));
     }
 }

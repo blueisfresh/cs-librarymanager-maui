@@ -28,7 +28,9 @@ public class ApiServices
         // Pass the handler into the HttpClient constructor
         _http = new HttpClient(handler)
         {
-            BaseAddress = new Uri("https://10.0.2.2:7117/api/")
+            //BaseAddress = new Uri("https://10.0.2.2:7117/api/")
+            BaseAddress = new Uri("http://10.3.9.130:5069/api/")
+
         };
     }
 
