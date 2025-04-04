@@ -107,6 +107,46 @@
         <member name="T:LibraryManagementMaui.ViewModels.BorrowReturnViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.IsBorrowing">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.isBorrowing"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.IsReturning">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.isReturning"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.BookNumber">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.bookNumber"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.StudentLibraryCardNum">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.studentLibraryCardNum"/>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.DueDate">
+            <inheritdoc cref="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.dueDate"/>
+        </member>
+        <member name="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.OnIsBorrowingChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.IsBorrowing"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.IsBorrowing"/> is changed.</remarks>
+        </member>
+        <member name="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.OnIsReturningChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.IsReturning"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.IsReturning"/> is changed.</remarks>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.addBookCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.AddBookCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.AddBookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.AddBookAsync"/>.</summary>
+        </member>
+        <member name="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.confirmActionCommand">
+            <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.ConfirmActionCommand"/>.</summary>
+        </member>
+        <member name="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.ConfirmActionCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.ConfirmActionAsync"/>.</summary>
         </member>
         <member name="F:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.goToStatisticsPageCommand">
             <summary>The backing field for <see cref="P:LibraryManagementMaui.ViewModels.BorrowReturnViewModel.GoToStatisticsPageCommand"/>.</summary>
@@ -228,6 +268,21 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEmpty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsBorrowing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsBorrowing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsReturning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsReturning" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BookNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BookNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.StudentLibraryCardNum">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "StudentLibraryCardNum" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DueDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DueDate" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Students">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Students" generated properties.</summary>
         </member>
@@ -260,6 +315,21 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEmpty">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEmpty" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsBorrowing">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsBorrowing" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsReturning">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsReturning" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BookNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BookNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.StudentLibraryCardNum">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "StudentLibraryCardNum" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DueDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DueDate" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Students">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Students" generated properties.</summary>
